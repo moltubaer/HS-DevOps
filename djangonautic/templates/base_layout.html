@@ -9,6 +9,8 @@
     </head>
     <body>
         <div class="wrapper">
+            <h1><a href="{% url 'list' %}">Alexander's Blog</a></h1><br>
+            <!-- <h1><a href="{% url 'list' %}"><img src="{% static 'logo.png' %}"/></a></h1> -->
             {% block content %}
             {% endblock %}
         </div>
